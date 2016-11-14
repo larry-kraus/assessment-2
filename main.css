@@ -1,10 +1,30 @@
+@media (min-width: 600px) {
+	body {
+		background-image: url(porsche2.jpg);
+		background-position: initial;
+		background-repeat: no-repeat;
+		color: white;
+		text-align: center;
+		font-family: Roboto, arial, sans-serif;
+	}
+
+	h2 {
+		font-size: 72px;
+		font-weight: 700;
+	}
+
+	p {
+		font-size: 40px;
+		font-weight: 300;
+	}
+}
+
 body {
 	background-image: url(porsche2.jpg);
-	background-position: initial;
-	background-repeat: no-repeat;
 	color: white;
-	text-align: center;
-	font-family: Roboto, arial, sans-serif;
+		text-align: center;
+		font-family: Roboto, arial, sans-serif;
+
 }
 
 h2 {
