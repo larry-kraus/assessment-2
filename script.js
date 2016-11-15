@@ -20,25 +20,26 @@ player2 = {
   	x: 0
 }
 
-//var updateBoard = function() {
-//}
-
-
-
-
-var listener = document.addEventListener("click", console.log("A"), false);
-
-
-var testIt = function() {
-	console.log("key pressed down");
+var updateBoard = function() {
 }
 
-/*
-window.addEventListener("keydown", checkKeyL, false);
+var printer = function() {
+	console.log("werks");
+}
 
-function checkKeyA(e) {
-	if (e.keycode == "65") {
-		console.log("A has been pressed");
+var header2 = document.getElementById('dr');
+console.log(header2);
+
+header2.addEventListener("click", printer);
+
+
+
+/*
+document.addEventListener("keypress", checkKeyA);
+
+function checkKeyA(keycode) {
+	if (keycode === "65") {
+		console.log("A has been pressed!");
 		//oneMoves();
 	}
 }
