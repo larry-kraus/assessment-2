@@ -1,3 +1,5 @@
+
+/* styling for typical computer browser */
 @media (min-width: 600px) {
 	body {
 		background-image: url(porsche2.jpg);
@@ -18,7 +20,7 @@
 		font-weight: 300;
 	}
 }
-
+/* styling for smaller screens (under 600 px) */
 body {
 	background-image: url(porsche2.jpg);
 	color: white;
@@ -47,7 +49,7 @@ button {
 	font-weight: 300;
 	border-color: rgb(255, 90, 0);
 }
-
+/* green bar at top */
 #orange {
 	height: 8px;
 	width: 100%;
@@ -59,7 +61,7 @@ button {
 .container {
 	align-content: center;
 }
-
+/* styling for game board, causes white border */
 table {
 	border: 1px solid white;
 	margin: 0 auto;
@@ -82,13 +84,12 @@ button.page2 {
 .instructions {
 
 }
-
+/* styles top yellow dot, player 1 */
 .dot1 {
-
 	border-radius: 40px;
 	background-color: yellow;
 }
-
+/* styles bottom orange dot, player 2 */
 .dot2 {
 	border-radius: 40px;
 	background-color: rgb(255, 90, 0);
