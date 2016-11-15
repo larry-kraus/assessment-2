@@ -1,7 +1,7 @@
 @media (min-width: 600px) {
 	body {
 		background-image: url(porsche2.jpg);
-		background-position: initial;
+		background-position: stretch;
 		background-repeat: no-repeat;
 		color: white;
 		text-align: center;
@@ -22,8 +22,8 @@
 body {
 	background-image: url(porsche2.jpg);
 	color: white;
-		text-align: center;
-		font-family: Roboto, arial, sans-serif;
+	text-align: center;
+	font-family: Roboto, arial, sans-serif;
 
 }
 
@@ -84,7 +84,7 @@ button.page2 {
 }
 
 .dot1 {
-	
+
 	border-radius: 40px;
 	background-color: yellow;
 }
